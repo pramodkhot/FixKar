@@ -1,0 +1,24 @@
+{
+    "name": "FixKar Android Dev",
+    "image": "mcr.microsoft.com/devcontainers/java:17-bookworm",
+    "features": {
+        "ghcr.io/devcontainers/features/android-sdk:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "fwcd.kotlin",
+                "mathiasfrohlich.Kotlin",
+                "redhat.vscode-xml",
+                "vscjava.vscode-gradle",
+                "GitHub.vscode-pull-request-github"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    },
+    "postCreateCommand": "chmod +x ./gradlew 2>/dev/null || true && echo 'If this is first run, execute: gradle wrapper --gradle-version 8.9'",
+    "remoteUser": "vscode"
+}
