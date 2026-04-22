@@ -1,0 +1,33 @@
+# --- Gradle ---
+.gradle/
+build/
+out/
+
+# --- Android ---
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+.externalNativeBuild/
+.cxx/
+
+# --- Firebase / secrets ---
+# We commit a placeholder, not the real file.
+app/google-services.json
+**/*.keystore
+**/*.jks
+
+# --- IDEs ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
