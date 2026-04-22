@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    English strings — DEFAULT locale.
+
+    KEY NAMING RULES:
+      - feature_context_noun        e.g. login_btn_continue
+      - screen_section_label        e.g. post_job_title
+      - action_verbs_begin_cta      buttons start with action verb (login_btn_continue)
+    NEVER hardcode text in Kotlin files. Always go through R.string.*.
+-->
+<resources>
+    <!-- ===== App-wide ===== -->
+    <string name="app_name">FixKar</string>
+    <string name="phase1_tagline">Local help, on your street</string>
+
+    <!-- ===== Notifications ===== -->
+    <string name="notif_channel_default_id">fixkar_default</string>
+    <string name="notif_channel_default_name">General notifications</string>
+    <string name="notif_channel_jobs_id">fixkar_jobs</string>
+    <string name="notif_channel_jobs_name">New jobs near you</string>
+
+    <!-- ===== Common actions ===== -->
+    <string name="action_continue">Continue</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_next">Next</string>
+    <string name="action_back">Back</string>
+    <string name="action_save">Save</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+
+    <!-- ===== Generic state ===== -->
+    <string name="state_loading">Loading…</string>
+    <string name="state_no_internet">No internet. Please check your connection.</string>
+    <string name="state_something_wrong">Something went wrong. Please try again.</string>
+
+    <!-- ===== Auth / Login (Phase 2) ===== -->
+    <string name="login_title">Welcome</string>
+    <string name="login_subtitle">Sign in to post work or find work</string>
+    <string name="login_hint_phone">Enter mobile number</string>
+    <string name="login_btn_send_otp">Send OTP</string>
+    <string name="login_btn_google">Continue with Google</string>
+    <string name="login_or">OR</string>
+    <string name="otp_title">Verify OTP</string>
+    <string name="otp_subtitle">We sent a 6-digit code to %1$s</string>
+    <string name="otp_btn_verify">Verify</string>
+    <string name="otp_resend">Resend OTP</string>
+
+    <!-- ===== Role selection (Phase 3) ===== -->
+    <string name="role_title">How will you use FixKar?</string>
+    <string name="role_customer">I need help (Customer)</string>
+    <string name="role_worker">I give services (Worker)</string>
+    <string name="role_both">Both</string>
+
+    <!-- ===== Home ===== -->
+    <string name="home_post_job">Post a job</string>
+    <string name="home_find_jobs">Find jobs near me</string>
+    <string name="home_my_jobs">My jobs</string>
+
+    <!-- ===== Job post (Phase 4) ===== -->
+    <string name="post_job_title">What work do you need?</string>
+    <string name="post_job_category">Choose category</string>
+    <string name="post_job_description">Describe the work</string>
+    <string name="post_job_voice_input">Tap to speak</string>
+    <string name="post_job_location">Where?</string>
+    <string name="post_job_use_current_location">Use my current location</string>
+    <string name="post_job_preferred_time">When do you need it?</string>
+    <string name="post_job_time_immediate">Right now</string>
+    <string name="post_job_time_today">Today</string>
+    <string name="post_job_time_tomorrow">Tomorrow</string>
+    <string name="post_job_btn_post">Post job</string>
+
+    <!-- ===== Bid (Phase 6) ===== -->
+    <string name="bid_title">Your bid</string>
+    <string name="bid_hint_price">Your price (₹)</string>
+    <string name="bid_hint_start_time">When can you start?</string>
+    <string name="bid_btn_submit">Send bid</string>
+
+    <!-- ===== Reviews (Phase 8) ===== -->
+    <string name="review_title">Rate the experience</string>
+    <string name="review_hint_comment">Add a comment (optional)</string>
+
+    <!-- ===== Settings / Language (Phase 10) ===== -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_marathi">मराठी</string>
+</resources>

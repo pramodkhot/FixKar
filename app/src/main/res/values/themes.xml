@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    XML theme that the Android system applies BEFORE Compose loads.
+    Used briefly during cold start for the splash window. Matches our orange brand.
+-->
+<resources>
+    <style name="Theme.FixKar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/brand_orange_dark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hindi (हिन्दी) translations. Same keys as values/strings.xml. -->
+<resources>
+    <string name="app_name">FixKar</string>
+    <string name="phase1_tagline">आपकी गली में, स्थानीय मदद</string>
+
+    <string name="notif_channel_default_name">सामान्य सूचनाएँ</string>
+    <string name="notif_channel_jobs_name">आपके पास नए काम</string>
+
+    <string name="action_continue">आगे बढ़ें</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_retry">पुनः प्रयास करें</string>
+    <string name="action_submit">भेजें</string>
+    <string name="action_next">अगला</string>
+    <string name="action_back">वापस</string>
+    <string name="action_save">सेव करें</string>
+    <string name="action_yes">हाँ</string>
+    <string name="action_no">नहीं</string>
+
+    <string name="state_loading">लोड हो रहा है…</string>
+    <string name="state_no_internet">इंटरनेट नहीं है। कृपया कनेक्शन जाँचें।</string>
+    <string name="state_something_wrong">कुछ गलत हो गया। कृपया फिर से प्रयास करें।</string>
+
+    <string name="login_title">स्वागत है</string>
+    <string name="login_subtitle">काम देने या काम पाने के लिए साइन इन करें</string>
+    <string name="login_hint_phone">मोबाइल नंबर दर्ज करें</string>
+    <string name="login_btn_send_otp">OTP भेजें</string>
+    <string name="login_btn_google">Google से जारी रखें</string>
+    <string name="login_or">या</string>
+    <string name="otp_title">OTP सत्यापित करें</string>
+    <string name="otp_subtitle">हमने %1$s पर 6 अंकों का कोड भेजा है</string>
+    <string name="otp_btn_verify">सत्यापित करें</string>
+    <string name="otp_resend">OTP फिर से भेजें</string>
+
+    <string name="role_title">आप FixKar का उपयोग कैसे करेंगे?</string>
+    <string name="role_customer">मुझे मदद चाहिए (ग्राहक)</string>
+    <string name="role_worker">मैं सेवा देता हूँ (मज़दूर / कारीगर)</string>
+    <string name="role_both">दोनों</string>
+
+    <string name="home_post_job">काम पोस्ट करें</string>
+    <string name="home_find_jobs">पास के काम ढूंढें</string>
+    <string name="home_my_jobs">मेरे काम</string>
+
+    <string name="post_job_title">आपको कौन-सा काम चाहिए?</string>
+    <string name="post_job_category">श्रेणी चुनें</string>
+    <string name="post_job_description">काम का विवरण दें</string>
+    <string name="post_job_voice_input">बोलने के लिए टैप करें</string>
+    <string name="post_job_location">कहाँ?</string>
+    <string name="post_job_use_current_location">मेरा वर्तमान स्थान उपयोग करें</string>
+    <string name="post_job_preferred_time">कब चाहिए?</string>
+    <string name="post_job_time_immediate">अभी</string>
+    <string name="post_job_time_today">आज</string>
+    <string name="post_job_time_tomorrow">कल</string>
+    <string name="post_job_btn_post">काम पोस्ट करें</string>
+
+    <string name="bid_title">आपकी बोली</string>
+    <string name="bid_hint_price">आपकी कीमत (₹)</string>
+    <string name="bid_hint_start_time">आप कब शुरू कर सकते हैं?</string>
+    <string name="bid_btn_submit">बोली भेजें</string>
+
+    <string name="review_title">अनुभव को रेट करें</string>
+    <string name="review_hint_comment">टिप्पणी जोड़ें (वैकल्पिक)</string>
+
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_language">भाषा</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_marathi">मराठी</string>
+</resources>
